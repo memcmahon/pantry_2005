@@ -30,7 +30,7 @@ From the command line, run the following script, replacing `<repository_name` wi
 
 ```
 for i in `cat students.txt`; do
-  git clone git@github.com:$i/<repository_name> $i
+  git clone git@github.com:$i/pantry_2005 $i
   cd $i
   git pull origin spec # this will cause a merge commit message
   rspec
